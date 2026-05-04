@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gesture App</string>
+
+    <!-- Main Page -->
+    <string name="main_message">Double Tap to Open Gesture Page</string>
+
+    <!-- Gesture Page Default -->
+    <string name="gesture_default">Perform Gestures Here</string>
+
+    <!-- Gesture Messages -->
+    <string name="single_tap">Single Tap Detected</string>
+    <string name="double_tap">Double Tap Detected</string>
+    <string name="long_press">Long Press Detected</string>
+    <string name="swipe_right">Right Swipe Detected</string>
+    <string name="swipe_left">Left Swipe Detected</string>
+    <string name="swipe_up">Up Swipe Detected</string>
+    <string name="swipe_down">Down Swipe Detected</string>
+</resources>
