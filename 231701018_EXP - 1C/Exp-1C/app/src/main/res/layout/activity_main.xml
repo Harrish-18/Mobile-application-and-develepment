@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ED3636"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:background="#034333"
+        android:fontFamily="@font/comic_neue_bold"
+        android:gravity="center"
+        android:text="BMI Calculator"
+        android:textColor="#4CAF50"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/txtWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:inputType="number|numberDecimal"
+        android:hint="Weight (Kg)"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:fontFamily="@font/averia_gruesa_libre"
+        android:inputType="number|numberDecimal"
+        android:hint="Height (cm)"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="Your Score"
+        android:textColor="#FFFFFE"
+        android:textColorLink="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/txtCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/andada"
+        android:text="Calculate"
+        android:textSize="20sp" />
+</LinearLayout>
